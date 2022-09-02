@@ -28,10 +28,8 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ### Word count: comparing the English pages and the Dutch pages translated to English
 
-<img src="imgs/word_count_dist.png" width="500"/>
-<img src="imgs/word_count_ratio.png" width="500"/>
+<img src="imgs/word_count_dist.png" width="400"/> <img src="imgs/word_count_ratio.png" width="400"/>
 
 ### Gzip size: comparing the English pages and the Dutch pages translated to English
 
-<img src="imgs/gzip_dist.png" width="500"/>
-<img src="imgs/gzip_ratio.png" width="500"/>
+<img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
