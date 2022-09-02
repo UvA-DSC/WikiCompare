@@ -176,24 +176,12 @@ special
 ### Comparison of database entries to web page content
 Here we compared the number of claims in the Wikidata database to the entries in the Infobox for each university (excluding those that did not have infoboxes)
 
-<img src="imgs/db_infobox.PNG" width="500"/>
-
-
-For both langauges, we got some descritpives of them including words use number of sentences.
-
-<img src="imgs/Utokens.png" width="500"/>
-
-<img src="imgs/sentences.png" width="500"/>
-
-
-Using spacy, we also determined complexity of the texts. 
-The LYX index takes into account the number of complex words (above 4 syllabus) in the texts.
-<img src="imgs/LIX.png" width="500"/>
+<img src="imgs/db_infobox.PNG" width="400"/>
 
 
 ### Text descriptives
 
-For both langauges, we got some descritpives of them including words use number of sentences.
+For both langauges, we retrieved descriptive statistics including words use number of sentences.
 
 <img src="imgs/Utokens.png" width="500"/>
 
