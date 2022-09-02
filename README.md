@@ -8,21 +8,9 @@ For example, looking at the University of Amsterdam:
 
 | [UvA (Dutch)](https://nl.wikipedia.org/wiki/Universiteit_van_Amsterdam) | [UvA (English)](https://en.wikipedia.org/wiki/University_of_Amsterdam) | [UvA (Wikidata)](https://www.wikidata.org/wiki/Q214341)
 | ------------- | ------------- | ------------ |
-| Content Cell  | Content Cell  |
+| <img src="imgs/uva-nl.jpg" width="200"/>  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-
-<div style="display:flex">
-     <div style="flex:1;padding-right:10px;">
-          <img src="imgs/uva-nl.jpg" width="200"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="img/uva-en.jpg" width="300"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="img/uva-wd.jpg" width="400"/>
-     </div>
-</div>
 
 You see different content. The goal of this project to create quantative measures of the different. 
 
