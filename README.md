@@ -22,7 +22,20 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ## Current Results
 
+### Data
 The results below are for Dutch univiersities as defined by the following SPARQL query. 
+
+```
+SELECT ?item
+WHERE {
+  ?item wdt:P31 wd:Q3918 .
+  ?item wdt:P17 wd:Q55 .
+  ?nlSite schema:isPartOf <https://nl.wikipedia.org/> .
+  ?enSite schema:isPartOf <https://en.wikipedia.org/> .
+  ?nlSite schema:about ?item .
+  ?enSite schema:about ?item .
+}
+```
 
 
 
