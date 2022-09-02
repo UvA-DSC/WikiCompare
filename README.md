@@ -37,7 +37,7 @@ WHERE {
 }
 ```
 
-This retrieve all entities of type (wdt:P31) univerity (wd:Q3918) who have a country (wdt:P17) of the Netherlands (wd:Q55). We then use [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot) to retrieve the wikipedia pages from the Dutch and English wikipedias as well as the representation from Wikidata. 
+This retrieve all entities of type (wdt:P31) univerity (wd:Q3918) who have a country (wdt:P17) of the Netherlands (wd:Q55). We then use [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot) to retrieve the wikipedia pages from the Dutch and English wikipedias as well as the representation from Wikidata. We provide a handly Duckdb file containing this download information. 
 
 
 
