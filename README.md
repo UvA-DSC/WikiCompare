@@ -23,7 +23,7 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 ## Current Results
 
 ### Data
-The results below are for Dutch univiersities as defined by the following SPARQL query. 
+The results below are for Dutch univiersities as defined by the following [SPARQL query executed over Wikidata](https://query.wikidata.org/#SELECT%20%3Fitem%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3918%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ55%20.%0A%20%20%3FnlSite%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fnl.wikipedia.org%2F%3E%20.%0A%20%20%3FenSite%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fen.wikipedia.org%2F%3E%20.%0A%20%20%3FnlSite%20schema%3Aabout%20%3Fitem%20.%0A%20%20%3FenSite%20schema%3Aabout%20%3Fitem%20.%0A%7D)
 
 ```
 SELECT ?item
@@ -36,6 +36,8 @@ WHERE {
   ?enSite schema:about ?item .
 }
 ```
+
+This retrieve all entities of type (wdt:P31) univerity (wd:Q3918) who have a country (wdt:P17) of the Netherlands (wd:Q55). We then use [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot) to retrieve the wikipedia pages from the Dutch and English wikipedias as well as the representation from Wikidata. 
 
 
 
