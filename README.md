@@ -218,3 +218,18 @@ Using spacy, we also determined complexity of the texts.
 The LYX index takes into account the number of complex words (above 4 syllabus) in the texts.
 <img src="imgs/LIX.png" width="500"/>
 >>>>>>> d0d2fe93d8ba7123ced1386c29a7588d5a1c866a
+
+
+### Text descriptives
+
+For both langauges, we got some descritpives of them including words use number of sentences.
+
+<img src="imgs/Utokens.png" width="500"/>
+
+<img src="imgs/sentences.png" width="500"/>
+
+
+Using spacy, we also determined complexity of the texts. 
+The LYX index takes into account the number of complex words (above 4 syllabus) in the texts.
+
+<img src="imgs/LIX.png" width="500"/>
