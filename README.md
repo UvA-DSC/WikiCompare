@@ -91,3 +91,10 @@ Similarity score of all Dutch Universities:
 
 
 <img src="imgs/word_similarity.PNG"/>
+
+### Comparison of database entries to web page content
+Here we comapred the number of claims in the database to the entries in the Infobox for each university (exclusing those that did not have infoboxes)
+
+<img src="imgs/db_infobox.PNG" width="500"/>
+
+
