@@ -80,18 +80,18 @@ With DBSCAN we determine the number of clusters, i.e. topics in these texts and 
 
 ENGLISH
 
-Total words:  2801
-Top words:
-   university   112
-   amsterdam   73
-   student   69
-   faculty   66
-   science   45
-   research   37
-   uva   29
-   academic   23
-   dutch   20
-   netherlands   19
+* Total words:  2801
+* Top words:
+   * university   112
+   * amsterdam   73
+   * student   69
+   * faculty   66
+   * science   45
+   * research   37
+   * uva   29
+   * academic   23
+   * dutch   20
+   * netherlands   19
 
 DUTCH
 
