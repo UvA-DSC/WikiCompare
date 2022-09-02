@@ -95,18 +95,18 @@ ENGLISH
 
 DUTCH
 
-Total words:  735
-Top words:
-   university   34
-   institute   34
-   amsterdam   34
-   uva   19
-   student   18
-   science   12
-   faculty   11
-   research   10
-   study   9
-   center   9
+* Total words:  735
+* Top words:
+   * university   34
+   * institute   34
+   * amsterdam   34
+   * uva   19
+   * student   18
+   * science   12
+   * faculty   11
+   * research   10
+   * study   9
+   * center   9
 
 POPULAR IN BOTH LANGUAGES:
 
@@ -166,8 +166,6 @@ hva
 language
 municipality
 special
-
-Process finished with exit code 0
 
 
 ### Similarity score of all Dutch Universities:
