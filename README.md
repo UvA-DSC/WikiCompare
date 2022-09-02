@@ -98,3 +98,13 @@ Here we compared the number of claims in the database to the entries in the Info
 <img src="imgs/db_infobox.PNG" width="500"/>
 
 
+For both langauges, we got some descritpives of them including words use number of sentences.
+
+<img src="imgs/Utokens.png" width="500"/>
+
+<img src="imgs/sentences.png" width="500"/>
+
+
+Using spacy, we also determined complexity of the texts. 
+The LYX index takes into account the number of complex words (above 4 syllabus) in the texts.
+<img src="imgs/LIX.png" width="500"/>
