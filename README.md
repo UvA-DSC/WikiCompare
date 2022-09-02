@@ -58,6 +58,8 @@ Wikipedia pages are zipped using the gzip algorithm. The size of the resulting f
 
 <img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
 
+The distribution of the gzip size of the pages is pretty similar between English and translated Dutch pages. 
+A one-to-one comparison (ratio) shows that most of the English pages contain more information than the translated Dutch pages.
 
 ### Comparision of the number of entities extracted 
 Here we used the [pretrained small language models from Spacy](https://spacy.io/models/nl) for Dutch and English to do named entity recognition.
