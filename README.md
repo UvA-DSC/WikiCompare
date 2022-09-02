@@ -22,6 +22,10 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ## Current Results
 
+The results below are for Dutch univiersities as defined by the following SPARQL query. 
+
+
+
 ### Comparison of number of sections between NL en EN wikipedias
 
 <img src="imgs/sections_count_nl_uni.png" width="800"/>
@@ -35,5 +39,6 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 <img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
 
 ### Comparision of the number of entities extracted 
+Here we used the [pretrained small language models from Spacy](https://spacy.io/models/nl) for Dutch and English to do named entity recognition.
 
 <img src="imgs/entities_count_nl_uni.png" width="800"/>
