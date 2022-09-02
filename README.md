@@ -22,7 +22,22 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ## Current Results
 
-The results below are for Dutch univiersities as defined by the following SPARQL query. 
+### Data
+The results below are for Dutch univiersities as defined by the following [SPARQL query executed over Wikidata](https://query.wikidata.org/#SELECT%20%3Fitem%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3918%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ55%20.%0A%20%20%3FnlSite%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fnl.wikipedia.org%2F%3E%20.%0A%20%20%3FenSite%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fen.wikipedia.org%2F%3E%20.%0A%20%20%3FnlSite%20schema%3Aabout%20%3Fitem%20.%0A%20%20%3FenSite%20schema%3Aabout%20%3Fitem%20.%0A%7D)
+
+```
+SELECT ?item
+WHERE {
+  ?item wdt:P31 wd:Q3918 .
+  ?item wdt:P17 wd:Q55 .
+  ?nlSite schema:isPartOf <https://nl.wikipedia.org/> .
+  ?enSite schema:isPartOf <https://en.wikipedia.org/> .
+  ?nlSite schema:about ?item .
+  ?enSite schema:about ?item .
+}
+```
+
+This retrieve all entities of type (wdt:P31) univerity (wd:Q3918) who have a country (wdt:P17) of the Netherlands (wd:Q55). We then use [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot) to retrieve the wikipedia pages from the Dutch and English wikipedias as well as the representation from Wikidata. We provide a handly [Duckdb file](https://github.com/UvA-DSC/WikiCompare/blob/main/data/dutchuniversities.duckdb) containing this downloaded information. 
 
 
 
@@ -34,9 +49,17 @@ The results below are for Dutch univiersities as defined by the following SPARQL
 
 <img src="imgs/word_count_dist.png" width="400"/> <img src="imgs/word_count_ratio.png" width="400"/>
 
+The word count distribution of the Dutch pages translated to English is more skewed than that of English pages. 
+Concerning the ratios, the number of pages with a higher count of words in the English version (ratio > 1), is slightly higher than those having more words in the translated Dutch version.
+
 ### Gzip size: comparing the English pages and the Dutch pages translated to English
 
+Wikipedia pages are zipped using the gzip algorithm. The size of the resulting file is an approximation of the algorithmic information content (or Kolmogorov complexity).
+
 <img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
+
+The distribution of the gzip size of the pages is pretty similar between English and translated Dutch pages. 
+A one-to-one comparison (ratio) shows that most of the English pages contain more information than the translated Dutch pages.
 
 ### Comparision of the number of entities extracted 
 Here we used the [pretrained small language models from Spacy](https://spacy.io/models/nl) for Dutch and English to do named entity recognition.
