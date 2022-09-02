@@ -25,3 +25,8 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 ### Comparison of number of sections for Dutch Universities between NL en EN wikipedias
 
 <img src="imgs/sections_count_nl_uni.png" width="800"/>
+
+### Word count: comparing the English pages and the Dutch pages translated to English
+
+<img src="imgs/word_count_dist.png" width="800"/>
+<img src="imgs/word_count_ratio.png" width="800"/>
