@@ -174,7 +174,6 @@ Process finished with exit code 0
 (Jaccard metric)
 
 
-<<<<<<< HEAD
 60.55%: Maastricht University
 53.78%: University of Groningen
 52.34%: Theological University of Apeldoorn
@@ -198,7 +197,8 @@ Process finished with exit code 0
 23.70%: University of Nijmegen (1655–1680)
 22.02%: Saba University School of Medicine
 14.15%: University of Humanistic Studies
-=======
+
+
 <img src="imgs/word_similarity.PNG"/>
 
 ### Comparison of database entries to web page content
