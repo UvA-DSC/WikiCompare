@@ -75,3 +75,19 @@ For all sentences on all wiki pages we get vector embeddings. These are 300-dime
 With DBSCAN we determine the number of clusters, i.e. topics in these texts and these compare as follows:
 
 <img src="imgs/topics.png" width="500"/>
+
+Statistics of similarity of EN and NL pages of UvA:
+
+<img src="imgs/uva1.png"/>
+
+<img src="imgs/uva2.png"/>
+
+<img src="imgs/uva3.png"/>
+
+<img src="imgs/uva4.png"/>
+
+Similarity score of all Dutch Universities:
+(Jaccard metric)
+
+
+<img src="imgs/word_similarity.PNG"/>
