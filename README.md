@@ -49,9 +49,15 @@ This retrieve all entities of type (wdt:P31) univerity (wd:Q3918) who have a cou
 
 <img src="imgs/word_count_dist.png" width="400"/> <img src="imgs/word_count_ratio.png" width="400"/>
 
+The word count distribution of the Dutch pages translated to English is more skewed than that of English pages. 
+Concerning the ratios, the number of pages with a higher count of words in the English version (ratio > 1), is slightly higher than those having more words in the translated Dutch version.
+
 ### Gzip size: comparing the English pages and the Dutch pages translated to English
 
+Wikipedia pages are zipped using the gzip algorithm. The size of the resulting file is an approximation of the algorithmic information content (or Kolmogorov complexity).
+
 <img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
+
 
 ### Comparision of the number of entities extracted 
 Here we used the [pretrained small language models from Spacy](https://spacy.io/models/nl) for Dutch and English to do named entity recognition.
