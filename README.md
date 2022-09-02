@@ -28,5 +28,5 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ### Word count: comparing the English pages and the Dutch pages translated to English
 
-<img src="imgs/word_count_dist.png" width="800"/>
-<img src="imgs/word_count_ratio.png" width="800"/>
+<img src="imgs/word_count_dist.png" width="500"/>
+<img src="imgs/word_count_ratio.png" width="500"/>
