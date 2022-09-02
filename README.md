@@ -1,4 +1,4 @@
-# WikiCompare: Comparing knowledge in wikipedia projects
+# WikiCompare: Comparing knowledge in Wikipedia projects
 
 The goal of this project is to compare the content/knowledge of different Wikipedia projects.
 In particular, we are interested in multilingual Wikipedias and Wikidata. 
@@ -70,8 +70,125 @@ Here we used the [pretrained small language models from Spacy](https://spacy.io/
 ### From sentence embeddings to topics
 For all sentences on all wiki pages we get vector embeddings. These are 300-dimensional, so here are the first three PCAs for some:
 
-<img src="imgs/PCA_sentence_vectors.png" width="800"/>
+<img src="imgs/PCA_sentence_vectors.png" width="500"/>
 
 With DBSCAN we determine the number of clusters, i.e. topics in these texts and these compare as follows:
 
-<img src="imgs/topics.png" width="800"/>
+<img src="imgs/topics.png" width="500"/>
+
+### Statistics of similarity of EN and NL pages of UvA:
+
+ENGLISH
+
+* Total words:  2801
+* Top words:
+   * university   112
+   * amsterdam   73
+   * student   69
+   * faculty   66
+   * science   45
+   * research   37
+   * uva   29
+   * academic   23
+   * dutch   20
+   * netherlands   19
+
+DUTCH
+
+* Total words:  735
+* Top words:
+   * university   34
+   * institute   34
+   * amsterdam   34
+   * uva   19
+   * student   18
+   * science   12
+   * faculty   11
+   * research   10
+   * study   9
+   * center   9
+
+POPULAR IN BOTH LANGUAGES:
+
+amsterdam
+center
+faculty
+institute
+law
+library
+locate
+research
+school
+science
+student
+study
+time
+university
+uva
+
+Popular in EN, but NOT popular in NL:
+
+academic
+area
+campus
+city
+cultural
+degree
+dentistry
+department
+doctoral
+dutch
+european
+former
+house
+humanity
+include
+medicine
+million
+minister
+museum
+nobel
+offer
+one
+prize
+ranked
+three
+winner
+within
+world
+
+Popular in NL, but NOT popular in EN:
+
+association
+auc
+collaboration
+hva
+language
+municipality
+special
+
+
+### Similarity score of all Dutch Universities:
+(Jaccard metric)
+
+<img src="imgs/word_similarity.PNG"/>
+
+### Comparison of database entries to web page content
+Here we compared the number of claims in the Wikidata database to the entries in the Infobox for each university (excluding those that did not have infoboxes)
+
+<img src="imgs/db_infobox.PNG" width="400"/>
+
+
+### Text descriptives
+
+For both langauges, we retrieved descriptive statistics including words use number of sentences.
+
+<img src="imgs/Utokens.png" width="500"/>
+
+<img src="imgs/sentences.png" width="500"/>
+
+
+Using spacy, we also determined complexity of the texts. 
+The LYX index takes into account the number of complex words (above 4 syllabus) in the texts.
+
+<img src="imgs/LIX.png" width="500"/>
