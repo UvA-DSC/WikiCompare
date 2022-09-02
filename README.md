@@ -8,7 +8,7 @@ For example, looking at the University of Amsterdam:
 
 | [UvA (Dutch)](https://nl.wikipedia.org/wiki/Universiteit_van_Amsterdam) | [UvA (English)](https://en.wikipedia.org/wiki/University_of_Amsterdam) | [UvA (Wikidata)](https://www.wikidata.org/wiki/Q214341)
 | ------------- | ------------- | ------------ |
-| <img src="imgs/uva-nl.jpg" width="200"/>  |  <img src="imgs/uva-en.jpg" width="200"/>  |
+| <img src="imgs/uva-nl.jpg" width="200"/>  |  <img src="imgs/uva-en.jpg" width="200"/>  |  <img src="imgs/uva-wd.jpg" width="200"/>  |
 
 
 You see different content. The goal of this project to create quantative measures of the different. 
@@ -20,3 +20,6 @@ See for example:
 * [Inductive Entity Representations from Text via Link Prediction](https://dl.acm.org/doi/abs/10.1145/3442381.3450141)
 Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github](https://github.com/dfdazac/blp)
 
+## Current Results
+
+*
