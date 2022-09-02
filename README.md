@@ -4,9 +4,12 @@ The goal of this project is to compare the content/knowledge of different Wikipe
 In particular, we are interested in multilingual Wikipedias and Wikidata. 
 
 For example, looking at the University of Amsterdam:
-* [UvA (Dutch)](https://nl.wikipedia.org/wiki/Universiteit_van_Amsterdam)
-* [UvA (English)](https://en.wikipedia.org/wiki/University_of_Amsterdam)
-* [UvA (Wikidata)](https://www.wikidata.org/wiki/Q214341)
+
+
+| [UvA (Dutch)](https://nl.wikipedia.org/wiki/Universiteit_van_Amsterdam) | [UvA (English)](https://en.wikipedia.org/wiki/University_of_Amsterdam) | [UvA (Wikidata)](https://www.wikidata.org/wiki/Q214341)
+| ------------- | ------------- | ------------ |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 You see different content. The goal of this project to create quantative measures of the different. 
 
