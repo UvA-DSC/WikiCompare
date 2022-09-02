@@ -70,8 +70,8 @@ Here we used the [pretrained small language models from Spacy](https://spacy.io/
 ### From sentence embeddings to topics
 For all sentences on all wiki pages we get vector embeddings. These are 300-dimensional, so here are the first three PCAs for some:
 
-<img src="imgs/PCA_sentence_vectors.png" width="800"/>
+<img src="imgs/PCA_sentence_vectors.png" width="500"/>
 
 With DBSCAN we determine the number of clusters, i.e. topics in these texts and these compare as follows:
 
-<img src="imgs/topics.png" width="800"/>
+<img src="imgs/topics.png" width="500"/>
