@@ -76,18 +76,124 @@ With DBSCAN we determine the number of clusters, i.e. topics in these texts and 
 
 <img src="imgs/topics.png" width="500"/>
 
-Statistics of similarity of EN and NL pages of UvA:
+### Statistics of similarity of EN and NL pages of UvA:
 
-<img src="imgs/uva1.png"/>
+ENGLISH
 
-<img src="imgs/uva2.png"/>
+Total words:  2801
+Top words:
+   university   112
+   amsterdam   73
+   student   69
+   faculty   66
+   science   45
+   research   37
+   uva   29
+   academic   23
+   dutch   20
+   netherlands   19
 
-<img src="imgs/uva3.png"/>
+DUTCH
 
-<img src="imgs/uva4.png"/>
+Total words:  735
+Top words:
+   university   34
+   institute   34
+   amsterdam   34
+   uva   19
+   student   18
+   science   12
+   faculty   11
+   research   10
+   study   9
+   center   9
 
-Similarity score of all Dutch Universities:
+POPULAR IN BOTH LANGUAGES:
+
+amsterdam
+center
+faculty
+institute
+law
+library
+locate
+research
+school
+science
+student
+study
+time
+university
+uva
+
+Popular in EN, but NOT popular in NL:
+
+academic
+area
+campus
+city
+cultural
+degree
+dentistry
+department
+doctoral
+dutch
+european
+former
+house
+humanity
+include
+medicine
+million
+minister
+museum
+nobel
+offer
+one
+prize
+ranked
+three
+winner
+within
+world
+
+Popular in NL, but NOT popular in EN:
+
+association
+auc
+collaboration
+hva
+language
+municipality
+special
+
+Process finished with exit code 0
+
+
+### Similarity score of all Dutch Universities:
 (Jaccard metric)
 
 
-<img src="imgs/word_similarity.PNG"/>
+60.55%: Maastricht University
+53.78%: University of Groningen
+52.34%: Theological University of Apeldoorn
+50.34%: Delft University of Technology
+50.10%: Wageningen University & Research
+48.77%: Leiden University
+48.15%: Radboud University Nijmegen
+46.05%: Utrecht University
+44.66%: University of Twente
+40.63%: University of Amsterdam
+39.21%: Eindhoven University of Technology
+38.95%: Vrije Universiteit Amsterdam
+38.48%: Open University of the Netherlands
+37.78%: Protestant Theological University
+35.39%: Theological University of the Reformed Churches
+34.38%: University of Harderwijk
+32.41%: Transnational University Limburg
+28.65%: Nyenrode Business University
+24.19%: Catholic University of Utrecht
+24.17%: University of Franeker
+23.70%: University of Nijmegen (1655–1680)
+22.02%: Saba University School of Medicine
+14.15%: University of Humanistic Studies
