@@ -22,7 +22,7 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ## Current Results
 
-### Comparison of number of sections for Dutch Universities between NL en EN wikipedias
+### Comparison of number of sections between NL en EN wikipedias
 
 <img src="imgs/sections_count_nl_uni.png" width="800"/>
 
@@ -33,3 +33,7 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 ### Gzip size: comparing the English pages and the Dutch pages translated to English
 
 <img src="imgs/gzip_dist.png" width="400"/> <img src="imgs/gzip_ratio.png" width="400"/>
+
+### Comparision of the number of entities extracted 
+
+<img src="imgs/entities_count_nl_uni.png" width="800"/>
