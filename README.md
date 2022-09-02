@@ -1,4 +1,4 @@
-# WikiCompare: Comparing knowledge in wikipedia projects
+# WikiCompare: Comparing knowledge in Wikipedia projects
 
 The goal of this project is to compare the content/knowledge of different Wikipedia projects.
 In particular, we are interested in multilingual Wikipedias and Wikidata. 
