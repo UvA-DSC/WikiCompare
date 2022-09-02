@@ -11,6 +11,19 @@ For example, looking at the University of Amsterdam:
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="imgs/uva-nl.jpg" width="200"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="img/uva-en.jpg" width="300"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="img/uva-wd.jpg" width="400"/>
+     </div>
+</div>
+
 You see different content. The goal of this project to create quantative measures of the different. 
 
 This is useful in the context of projects we work on in indelab.org which focus on adding knowledge to knowledge bases like Wikidata.
