@@ -22,4 +22,6 @@ Daniel Daza, Michael Cochez, and Paul Groth, in The Web Conference 2021. [Github
 
 ## Current Results
 
-*
+### Comparison of number of sections for Dutch Universities between NL en EN wikipedias
+
+<img src="imgs/sections_count_nl_uni.png" width="200"/>
